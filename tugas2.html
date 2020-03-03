@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("div").dblclick(function() 
+			{ 
+			$(this).toggleClass("merah") 
+           	}); 			
+		});
+	</script>
+	<style type="text/css">
+
+		.kuning {
+			width: 50px;
+			height: 50px;
+			background: yellow;
+			padding: 5px;
+		}
+		.merah {
+			width: 50px;
+			height: 50px;
+			background: red;
+			padding: 5px;
+		}
+	</style>
+	<title>Tugas 2 Events JQuery</title>
+</head>
+<body>
+	<p>Klik 2x pada setiap kotak untuk mengubah warna kotak</p>
+	<table>
+		<tr>
+			<td>
+				<div class="kuning"></div>
+			</td>
+			<td>
+				<div class="kuning"></div>				
+			</td>
+			<td>
+				<div class="kuning"></div>				
+			</td>
+			<td>
+				<div class="kuning"></div>				
+			</td>
+		</tr>
+	</table> 
+	
+</body>
+</html>
